@@ -36,12 +36,9 @@ export default function Navbar() {
             </label>
             <ul className='menu'>
             <li><Link to ="title"smooth={true} duration={2000}> Adoptions </Link></li>
-                
-               
-                
-                
-        <li><Link to ="maindish"smooth={true} duration={2000}> Food </Link></li>
-               <li><Link to ="main2"smooth={true} duration={2000}> Orphans Remaining </Link></li>
+            <li><Link to ="maindish"smooth={true} duration={2000}> Food </Link></li>
+            <li><Link to ="main2"smooth={true} duration={2000}> Orphans Remaining </Link></li>
+            <li><Link to ="about"smooth={true} duration={2000}> Info </Link></li>
             </ul>
            
 

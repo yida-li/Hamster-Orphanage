@@ -7,6 +7,8 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import HeaderMore from './components/HeaderMore';
 import Products from './components/Food';
+import PictureGalery from './components/PictureGalery';
+import About from './components/About';
 
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header></Header>
+      <PictureGalery/>
+     
       <Title/>
       <UploadForm />
       
@@ -26,6 +29,7 @@ function App() {
 
       <Products></Products>
       <HeaderMore/>
+        <About/>
     </div>
   );
 }
