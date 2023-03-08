@@ -5,6 +5,7 @@ import pimage1 from '../images/udon.jpg'
 import pimage2 from '../images/rice.jpg'
 import pimage3 from '../images/seed.jpg'
 import pimage4 from '../images/carrots.jpg'
+import pimage5 from '../images/leaf2.jpg'
 export default function Products() {
     return (
         <div>
@@ -22,12 +23,19 @@ export default function Products() {
 
         <div className='a-container'>
         <Productionbox image={pimage0} title="Milk"/>    
-        <Productionbox image={pimage1} title="Udon"/>
+        <Productionbox image={pimage1} title="Udon"/> 
+        </div>
+        <div className='a-container'>
+   
         <Productionbox image={pimage2} title="Rice"/>
         <Productionbox image={pimage3} title="Seed"/>
-        <Productionbox image={pimage4} title="Carrot"/>
+
+
         </div>
- 
+        <div className='a-container'>
+        <Productionbox image={pimage5} title="Leaf"/> 
+        <Productionbox image={pimage4} title="Carrot"/> 
+        </div>
 
 
 
